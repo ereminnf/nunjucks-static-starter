@@ -1,0 +1,16 @@
+{% extends "layout/index.njk" %}
+
+{% block content %}
+    <div class="page page-aboutus">
+        <p>about us</p>
+        <a href="/about">go about</a>
+    </div>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ bundle['css']['about_us'] }}">
+{% endblock %}
+
+{% block js %}
+    <script src="{{ bundle['js']['about_us'] }}"></script>
+{% endblock %}

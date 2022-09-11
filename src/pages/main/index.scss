@@ -1,0 +1,19 @@
+@import '/src/theme';
+
+.page-main {
+    &::after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url('/src/assets/icons/ui/cross.svg') no-repeat center;
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        width: 48px;
+        height: 48px;
+        background: url('/static/favicon.ico') no-repeat center;
+    }
+}

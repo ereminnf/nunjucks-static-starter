@@ -1,0 +1,18 @@
+{% extends "layout/index.njk" %}
+
+{% block content %}
+    <div class="page page-main">
+        <p>main</p>
+        <a href="/about">go about</a>
+        <img src='/src/assets/icons/ui/cross.svg'>
+        <img src='/static/favicon.ico'>
+    </div>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ bundle['css']['main'] }}">
+{% endblock %}
+
+{% block js %}
+    <script src="{{ bundle['js']['main'] }}"></script>
+{% endblock %}

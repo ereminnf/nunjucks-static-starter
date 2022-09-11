@@ -1,0 +1,8 @@
+# misc
+.vscode
+.DS_Store
+.env
+
+# production
+node_modules
+build

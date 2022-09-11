@@ -1,0 +1,17 @@
+{% extends "layout/index.njk" %}
+
+{% block content %}
+    <div class="page page-error">
+        <p>Error page</p>
+        <br/>
+        <a href="/">go main</a>
+    </div>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ bundle['css']['error'] }}">
+{% endblock %}
+
+{% block js %}
+    <script src="{{ bundle['js']['error'] }}"></script>
+{% endblock %}
