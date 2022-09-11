@@ -1,6 +1,6 @@
 {
     "name": "nunjucks-static-starter",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Starter site project with nunjucks-static",
     "scripts": {
         "build": "cross-env NODE_ENV=production webpack",
