@@ -5,14 +5,18 @@ Starter project with nunjucks-static.
 This project uses createConfig webpack to run quickly from nunjucks-static which supports:
 
 -   typescript
--   scss
--   devServer
--   env
+-   prettier
+-   sass/scss
+-   local devServer
+-   env loading
 -   hashing static files, for example when using the img[src] tag
+-   public folder, to serve static files without hashing (file path must start with /static)
 
 You can write your own configuration using the readme from nunjucks-static.
 
 ## 🚀 Getting Started
+
+Switch to the nodejs version to match the version in the nvmrc file.
 
 Copy .env.example to .env file.
 
